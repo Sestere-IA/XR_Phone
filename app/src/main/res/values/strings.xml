@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XR_Phone</string>
+    <string name="connect_activity">Se connecter</string>
+    <string name="lobby_activity">Lobby XRoad</string>
+    <string name="dev_mode_activity">Lobby XRoad Dev Mode</string>
+    <string name="hint_identifiant">Ip:port</string>
+    <string name="hint_password">mot de passe</string>
+    <string name="hint_select_scenario"> Select scénario</string>
+    <string name="start_game"> En route !</string>
+    <string name="enter_command"> Enter your Command</string>
+    <string name="send_command"> Send Command</string>
+    <string name="text_dev_mode"> Developer Mode</string>
+    <string name="text_look_for"> Regarder</string>
+    <string name="text_last_replay"> Dernier replay</string>
+    <string name="text_more_option"> Plus d\'options</string>
+    <string name="title_activity_in_game">activity_in_game</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

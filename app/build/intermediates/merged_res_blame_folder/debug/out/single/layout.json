@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lobby.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_lobby.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_in_game.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_in_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_transition_xroad.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_transition_xroad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_connect_menu.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_connect_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dev_mode.xml",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_dev_mode.xml"
+    }
+]

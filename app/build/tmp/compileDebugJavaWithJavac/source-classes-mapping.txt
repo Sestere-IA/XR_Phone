@@ -1,0 +1,14 @@
+com/example/xr_phone/databinding/ActivityInGameBinding.java
+ com.example.xr_phone.databinding.ActivityInGameBinding
+com/example/xr_phone/databinding/ActivityDevModeBinding.java
+ com.example.xr_phone.databinding.ActivityDevModeBinding
+com/example/xr_phone/databinding/ActivityLobbyBinding.java
+ com.example.xr_phone.databinding.ActivityLobbyBinding
+com/example/xr_phone/databinding/ActivityMainBinding.java
+ com.example.xr_phone.databinding.ActivityMainBinding
+com/example/xr_phone/databinding/ActivityTransitionXroadBinding.java
+ com.example.xr_phone.databinding.ActivityTransitionXroadBinding
+com/example/xr_phone/BuildConfig.java
+ com.example.xr_phone.BuildConfig
+com/example/xr_phone/databinding/ActivityConnectMenuBinding.java
+ com.example.xr_phone.databinding.ActivityConnectMenuBinding

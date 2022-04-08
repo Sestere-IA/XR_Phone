@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_xroad"
+    tools:context=".DevModeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/primary_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+            <TextView
+        android:id="@+id/textDevMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_dev_mode"
+        android:textColor="#FF0000"
+        android:textColorHint="#FFFFFF"
+        android:visibility="visible" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+    <EditText
+        android:id="@+id/commandToEnter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:hint="@string/enter_command"
+        android:inputType="textPersonName" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+    <Button
+        android:id="@+id/sendCommand"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:background="@color/orange_xroad"
+        android:text="@string/send_command"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/orange_xroad" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+    <TextView
+        android:id="@+id/serverResponse"
+        android:layout_width="364dp"
+        android:layout_height="429dp"
+        android:background="@color/black"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white" />
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

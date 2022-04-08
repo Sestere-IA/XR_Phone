@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_xroad_transition.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-hdpi\\xroad_transition.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_loading_screen_01.jpg.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\loading_screen_01.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_xroad_transition_foreground.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-mdpi\\xroad_transition_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lobby.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_lobby.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo_xroad_without_background.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable-v24\\logo_xroad_without_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_delete_forever_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_loadingscreen_02.jpg.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\loadingscreen_02.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_flag_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_flag_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_in_game.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_in_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dev_mode.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_dev_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_xroad_transition.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxxhdpi\\xroad_transition.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_disconect_to_computer.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\disconect_to_computer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_xroad_transition_foreground.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xhdpi\\xroad_transition_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_xroad_transition_foreground.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxxhdpi\\xroad_transition_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_connect_menu.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_connect_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\menu_home_menu.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\menu\\home_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_transition_xroad.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\layout\\activity_transition_xroad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_xroad_transition_round.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxxhdpi\\xroad_transition_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_crown.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\crown.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_xroad_transition_foreground.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-hdpi\\xroad_transition_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_xroad_transition_round.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-mdpi\\xroad_transition_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_xroad_transition.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xhdpi\\xroad_transition.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_expand_less_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_expand_less_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_xroad_transition_round.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-hdpi\\xroad_transition_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\menu_in_game_menu.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\menu\\in_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_xroad_transition.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxhdpi\\xroad_transition.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_xroad_transition_foreground.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxhdpi\\xroad_transition_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_xroad_full_name.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\xroad_full_name.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_xroad_transition_round.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xhdpi\\xroad_transition_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_return_icon_png_3.jpg.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\return_icon_png_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_xroad_transition_round.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-xxhdpi\\xroad_transition_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_expand_more_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_expand_more_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_xroad_transition.png.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-mdpi\\xroad_transition.png"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "C:\\Users\\Bluepollen_F_002\\AndroidStudioProjects\\XR_Phone\\app\\src\\main\\res\\drawable\\ic_baseline_refresh_24.xml"
+    }
+]

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_xroad"
+    tools:context=".LobbyActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/primary_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TableLayout
+        android:id="@+id/TableLayoutsccenario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/labelSequence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Sequence :"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_select_sequence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_scenario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/labelscenario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Scenario :"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_select_scenario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+
+
+
+    <TextView
+        android:id="@+id/labeldescribe_scenario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/table_short_scn_rotation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TableLayoutsccenario">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="Scénario court"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <CheckBox
+                    android:id="@+id/checkBoxScenarioShort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:buttonTint="@color/white"
+                    />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Rotation des parcours"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinnerRotation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/arrowbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table_short_scn_rotation"
+        app:srcCompat="@drawable/ic_baseline_expand_more_24" />
+
+    <TableLayout
+        android:id="@+id/more_obtion_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrowbtn1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/label_Mute"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="Muet"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/checkBox_Mute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/label_lock_mvt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="Vérouillage des mouvements"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/checkBox_lock_mvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:gravity="center" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/table_surface_weather_time_advertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/more_obtion_0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Surface condition"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinnerSurfaceCondition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Weather"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinnerWeather"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Time of Day"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinnerTimeofDay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Advertising"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinnerAdvertising"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/arrow_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table_surface_weather_time_advertising"
+        app:srcCompat="@drawable/ic_baseline_expand_more_24" />
+
+
+    <TableLayout
+        android:id="@+id/more_obtion_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="1"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_button2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/label_IA_density"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Densité IA"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_IA_density"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/label_IA_generation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Génération IA"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_IA_generation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/label_IA_seed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Graine IA"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/editNumber_IA_seed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:inputType="number"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <TextView
+                android:id="@+id/label_word_seed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="Graine du monde"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/number_word_seed"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/table3choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/more_obtion_1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp">
+
+            <CheckBox
+                android:id="@+id/checkBox_replay_matrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/white"
+                android:text="Matrix Replay"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:checked="true"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_eye_tracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/white"
+                android:text="Suivi oculaire"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/white"
+                android:text="Métrique"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Participants"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table3choice" />
+
+    <TableLayout
+        android:id="@+id/table_Player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+
+        <TableRow
+            android:id="@+id/rowParticipant1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_player1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PlayerName"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_player1_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player1_transport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player_1_numero_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/button_player_1_team_leader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:scaleType="fitCenter"
+                android:spinnerMode="dropdown"
+                android:tint="@color/grey_xroad"
+                app:srcCompat="@drawable/crown" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/rowParticipant2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp"
+            android:minWidth="48dp"
+            android:minHeight="32dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_player2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:gravity="center"
+                android:text="PlayerName"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_player2_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player2_transport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player_2_numero_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/button_player_2_team_leader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:scaleType="fitCenter"
+                android:spinnerMode="dropdown"
+                android:tint="@color/grey_xroad"
+                app:srcCompat="@drawable/crown" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/rowParticipant3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp"
+            android:minWidth="48dp"
+            android:minHeight="32dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_player3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PlayerName"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_player3_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player3_transport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player_3_numero_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/button_player_3_team_leader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:scaleType="fitCenter"
+                android:spinnerMode="dropdown"
+                android:tint="@color/grey_xroad"
+                app:srcCompat="@drawable/crown" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/rowParticipant4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="2dp"
+            android:minWidth="48dp"
+            android:minHeight="32dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_player4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PlayerName"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_player4_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player4_transport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player_4_numero_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/button_player_4_team_leader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:scaleType="fitCenter"
+                android:spinnerMode="dropdown"
+                android:tint="@color/grey_xroad"
+                app:srcCompat="@drawable/crown" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowParticipant5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:minWidth="48dp"
+            android:minHeight="32dp"
+            android:layout_marginVertical="2dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_player5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PlayerName"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_player5_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player5_transport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="48dp"
+                android:minHeight="32dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_player_5_numero_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/button_player_5_team_leader"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:scaleType="fitCenter"
+                android:spinnerMode="dropdown"
+                android:tint="@color/grey_xroad"
+                app:srcCompat="@drawable/crown" />
+
+
+        </TableRow>
+    </TableLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="2dp"
+        android:gravity="center">
+            <Button
+                android:id="@+id/go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange_xroad"
+                android:text="@string/start_game"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+    </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:indeterminateTint="@color/orange_xroad"
+        android:indeterminateTintMode="src_in"
+        android:background="#55000000"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

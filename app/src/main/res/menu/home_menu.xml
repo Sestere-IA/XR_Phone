@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/devMode"
+        android:title="Mode développeur" />
+    <item
+        android:id="@+id/item_disconnect"
+        android:icon="@drawable/disconect_to_computer"
+        android:title="Déconnexion" />
+    <item
+        android:id="@+id/EndGame"
+        android:title="End Game" />
+    <item
+        android:id="@+id/LastReplay"
+        android:title="Last Replay" />
+    <item
+        android:id="@+id/ListRepaly"
+        android:title="List Replays" />
+</menu>
